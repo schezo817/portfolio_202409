@@ -1,2 +1,9 @@
-# portfolio_202409
-This is a repository I created for my portfolio.
+## このプロジェクトについて
+
+このプロジェクトは，私（柊）のポートフォリオサイトである．
+
+##　実行方法
+```
+cd portfolio_front
+npm run dev
+```
