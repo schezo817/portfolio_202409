@@ -1,9 +1,8 @@
 export default function Portfolio() {
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header */}
       <header className="bg-gray-800 text-white p-4">
-        <h1 className="text-2xl">柊's Portfolio</h1>
+        <h1 className="text-2xl">柊s Portfolio</h1>
         <nav>
           <ul className="flex gap-4">
             <li><a href="#about">私について</a></li>
@@ -14,9 +13,7 @@ export default function Portfolio() {
         </nav>
       </header>
 
-      {/* Main Content */}
       <main className="flex-grow p-8">
-        {/* Introduction */}
         <section id="about" className="mb-8">
           <h2 className="text-xl mb-4">私について</h2>
           <p> 
@@ -28,7 +25,6 @@ export default function Portfolio() {
           </p>
         </section>
 
-        {/* Skills */}
         <section id="skills" className="mb-8">
           <h2 className="text-xl mb-4">スキル</h2>
           <ul className="list-disc list-inside">
@@ -43,7 +39,6 @@ export default function Portfolio() {
           </ul>
         </section>
 
-        {/* Projects */}
         <section id="projects" className="mb-8">
           <h2 className="text-xl mb-4">関わった制作物</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -56,7 +51,7 @@ export default function Portfolio() {
             <div className="border p-4">
               <h3 className="text-lg">Noveler</h3>
               <p>
-                小説家になろうに投稿する小説家が抱えるお困りごとを解消して、簡単に小説を書けるようにするためのアプリです。自分が昔小説を書いていたころの体験と周りの声を参考に制作しました。個人制作のため、設計からリリースまで担当し、最初のバージョンまでは約1ヶ月で開発しました。自分自身がユーザーとして利用した上での不満点をアップデートに盛り込み、細かい部分までも妥協せずにUXの最大化に取り組組みました。<br />
+                小説家になろうに投稿する小説家が抱えるお困りごとを解消して、簡単に小説を書けるようにするためのアプリです。自分が昔小説を書いていたころの体験と周りの声を参考に制作しました。個人制作のため、設計からリリースまで担当し、最初のバージョンまでは約1ヶ月で開発しました。自分自身がユーザーとして利用した上での不満点をアップデートに盛り込み、細かい部分までも妥協せずにUXの最大化に取り組みました。<br />
                 <a href="https://play.google.com/store/apps/details?id=com.hiragi.noveler&hl=ja-JP" target="_blank" rel="noopener noreferrer"><del>Google Play Stroe</del> </a>（現在公開停止中）<br />
                 <a href="https://github.com/schezo817/noveler" target="_blank" rel="noopener noreferrer">GitHub </a><br />
               </p>
@@ -79,8 +74,7 @@ export default function Portfolio() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white p-4 text-center">
+      <footer id="contact" className="bg-gray-800 text-white p-4 text-center">
         <p>関連リンク</p>
         <p>メールアドレス: <a href="mailto:hiragi817sc@gmail.com">hiragi817sc@gmail.com</a></p>
         <p>Twitter: <a href="https://twitter.com/hiragi_flutter" target="_blank" rel="noopener noreferrer">@hiragi_flutter</a></p>
